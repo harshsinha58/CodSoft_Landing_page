@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Struggling with calculus? We can help!</h2>
+    <p>Don't wait! Subscribe to our courses now.</p>
+    <img src="heroimage.jpg" alt="Hero Image">
+</div>
+
+<div class="container" id="features">
+    <h2>Features</h2>
+    <p>Reasons why people love our courses:</p>
+    <ul>
+        <li>Efficient.</li>
+        <li>Comprehensive.</li>
+        <li>In-depth concepts.</li>
+    </ul>
+</div>
+
+<div class="container" id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <blockquote>
+        <p>"This product changed my life!" - Happy Customer</p>
+    </blockquote>
+    <blockquote>
+        <p>"Excellent customer service and quality." - Satisfied Client</p>
+    </blockquote>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    <p>Follow us on:</p>
+    <ul>
+        <li><a href="http://facebook.com">Facebook</a></li>
+        <li><a href="http://twitter.com">Twitter</a></li>
+        <li><a href="http://instagram.com">Instagram</a></li>
+    </ul>
+    &copy; 2024 Your Company. All rights reserved.
+</footer>
+
+</body>
+</html>
